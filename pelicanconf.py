@@ -1,3 +1,7 @@
+AUTHOR = 'Rushi Agrawal'
+SITENAME = 'Sense, and Simplicity'
+TIMEZONE = 'Asia/Kolkata'
+
 SITEURL = 'http://rushiagr.github.io'
 
 ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
@@ -18,3 +22,11 @@ TWITTER_USER = 'reeshi_india'
 TWITTER_TWEET_BUTTON = True
 GOOGLE_PLUS_ONE = True
 FACEBOOK_LIKE = True
+
+SOCIAL = (('twitter', 'http://twitter.com/reeshi_india'),
+          ('github', 'http://github.com/rushiagr'),
+         )
+
+STATIC_PATHS = [
+    'test',
+    ]
