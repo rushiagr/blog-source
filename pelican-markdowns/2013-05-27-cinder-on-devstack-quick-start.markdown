@@ -435,8 +435,7 @@ tmpfs                   200.0K     76.0K    124.0K  38% /run
 Now you can `cd` into `/tempmount` directory, and do whatever you want to do with the new disk -- put some files there,
 or download one!
 
-Lets wrap up this part. Unmount this volume by `umount /tempmount`, and log out from the machine by pressing `CTRL+D` twice, and execute `nova volume-detach <volume_id>
-<server_id>` to detach this volume. You can now see the 'Attached to' column becomes empty again after detaching.
+Lets wrap up this part. Unmount this volume by `umount /tempmount`, and log out from the machine by pressing `CTRL+D` twice, and execute `nova volume-detach <server_id> <volume_id>` to detach this volume. You can now see the 'Attached to' column becomes empty again after detaching.
 ```
 stack@stlrx300s7-27:/$ cinder list
 +--------------------------------------+-----------+---------------+------+-------------+----------+--------------------------------------+
