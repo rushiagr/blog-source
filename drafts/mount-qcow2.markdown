@@ -1,1 +1,0 @@
-/home/r/notes/virtualization/qcow2-mount
