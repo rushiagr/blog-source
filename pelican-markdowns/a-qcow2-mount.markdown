@@ -13,24 +13,30 @@ I wanted to boot a VM out of a disk-image, but how will I know out of the 256 av
 We'll mount the image, tweak the filesystem of that image, and then boot the image.
 
 Install `qemu-utils` and enable `ndb` module
+
     sudo apt-get install qemu-utils
 	sudo modprobe nbd
 
 Use any qcow2 image, and if you don't have any, download a small CirrOS cloud image (around 13MB).
+
     wget http://download.cirros-cloud.net/0.3.2/cirros-0.3.2-x86_64-disk.img
        
 Connect the image to the first nbd device
+
 	sudo qemu-nbd -c /dev/nbd0 cirros-0.3.2-x86_64-disk.img
 
 Mount the image. For nbd0, see all the devices available (`/dev/nbd0<some-number-or-string>`) and try attaching to starting from the first one
+
 	sudo mount /dev/nbd0p1 /mnt
 
 Now at /mnt, you can see the complete filesystem of that image, and make necessary changes. You can do all sorts of things -- change `sources.list`, `/etc/network/interfaces`, put additional files inside the VM for particular users, etc.
 
 After you're done, unmount it.
+
 	sudo umount /mnt
 
 And disconnect the loopback device too
+
 	sudo qemu-nbd -d /dev/nbd0
 
 Done!
