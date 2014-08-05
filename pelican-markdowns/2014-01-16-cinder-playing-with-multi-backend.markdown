@@ -2,8 +2,8 @@ Title: Playing around with Cinder multi-backend
 Date: 2014-01-16
 Author: Rushi Agrawal
 Summary: 
-Tags: 
-Category: 
+Tags: tech, cinder, quicstart, ubuntu, cloud, openstack
+Category: tech
 
 
 With Grizzly release, Cinder got equipped with another major feature -- multi-backends

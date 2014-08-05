@@ -2,8 +2,8 @@ Title: Open Source Puppet - Quick Start
 Date: 2014-04-12
 Author: Rushi Agrawal
 Summary: 
-Tags: 
-Category: 
+Tags: tutorial, cheatsheet, puppet, tech, ubuntu, quicstart
+Category: tech
 
 This post aims to be your quickest guide to get started with Puppet. We'll be using the open source version of Puppet. An hour of spare time and two Ubuntu machines (physical or virtual doesn't matter) is all that is needed.
 

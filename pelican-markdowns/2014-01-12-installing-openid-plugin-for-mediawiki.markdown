@@ -2,8 +2,8 @@ Title: Installing OpenID plugin for MediaWiki
 Date: 2014-01-12
 Author: Rushi Agrawal
 Summary: 
-Tags: 
-Category: 
+Tags: tech, ubuntu, openid, tutorial, cheatsheet
+Category: tech
 
 This post is about setting up your wiki such that their users access the wiki
 only via an OpenID provider login (e.g. Google or Facebook login). This post assumes 

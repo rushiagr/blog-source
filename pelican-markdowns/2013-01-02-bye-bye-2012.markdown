@@ -2,8 +2,8 @@ Title: Bye-Bye 2012, Welcome 2013
 Date: 2013-01-02
 Author: Rushi Agrawal
 Summary: 
-Tags: 
-Category: 
+Tags: nontech, milestone
+Category: thoughts
 
 Listing down the things which went well for me in 2012, and which didn't, and the plans for upcoming year 2013. Beware: More technical stuff than emotional.
 

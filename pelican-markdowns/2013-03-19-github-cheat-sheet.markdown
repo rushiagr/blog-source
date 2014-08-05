@@ -2,8 +2,8 @@ Title: Git(hub) Cheat Sheet
 Date: 2013-03-19
 Author: Rushi Agrawal
 Summary: 
-Tags: 
-Category: 
+Tags: tech, git, github, cheatsheet, tutorial
+Category: tech
 
 
 I am posting my github cheat sheet here. I started writing it as soon as I started

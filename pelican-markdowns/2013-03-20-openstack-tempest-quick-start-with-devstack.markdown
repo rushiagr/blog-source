@@ -2,8 +2,8 @@ Title: OpenStack Tempest quick start with DevStack
 Date: 2013-03-20
 Author: Rushi Agrawal
 Summary: 
-Tags: 
-Category: 
+Tags: tech, openstack, tempest, cloud, testing, quickstart, tutorial
+Category: tech
 
 UPDATE(April 2014): Now when you set up DevStack, Tempest is automatically set up for you.
 

@@ -2,7 +2,7 @@ Title: Mounting QCOW2 images
 Date: 2014-08-02
 Author: Rushi Agrawal
 Summary: 
-Tags: virtualization, tutorial
+Tags: virtualization, tutorial, cloud, tech
 Category: tech
 Slug: qcow2-mount
 

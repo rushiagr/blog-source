@@ -2,8 +2,8 @@ Title: Quick Start: Linux Logical Volume Manager
 Date: 2014-01-14
 Author: Rushi Agrawal
 Summary: 
-Tags: 
-Category: 
+Tags: tech, quickstart, tutorial, ubuntu, lvm, linux, storage
+Category: tech
 
 While installing the latest Ubuntu OS on your computer, you will see that 
 you can install the OS using LVM (Logical Volume Manager) utility. Ever wonder what is it?

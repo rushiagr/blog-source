@@ -2,8 +2,8 @@ Title: Linux Screens in DevStack
 Date: 2013-06-05
 Author: Rushi Agrawal
 Summary: 
-Tags: 
-Category: 
+Tags: tech, linux, screen, cloud, devstack, openstack, quickstart
+Category: tech
 
 This blog article explains handling screens within OpenStack running as a DevStack setup. Some useful generic screen commands are also provided at the end.
 

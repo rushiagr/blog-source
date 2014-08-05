@@ -2,8 +2,8 @@ Title: OpenStack in an hour with DevStack
 Date: 2014-04-03
 Author: Rushi Agrawal
 Summary: 
-Tags: 
-Category: 
+Tags: tech, openstack, devstack, cheatsheet, tutorial, ubuntu, quickstart
+Category: tech
 
 So you found out a cool new technology "OpenStack" and want to try it real quick? Or probably you are hired in a company for your Python skills and now you are supposed to work on OpenStack in the shortest possible time? Fear not, it is not that hard to get started. [DevStack](http://devstack.org) is your friend-in-need. No, don't click that hyperlink just yet :)
 

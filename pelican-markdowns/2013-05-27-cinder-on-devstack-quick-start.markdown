@@ -2,8 +2,8 @@ Title: Cinder on DevStack - Quick Start
 Date: 2013-05-27
 Author: Rushi Agrawal
 Summary: 
-Tags: 
-Category: 
+Tags: cinder, openstack, cloud, block-storage, tutorial, quickstart, cheatsheet
+Category: tech
 
 This blog post covers all the important commands for OpenStack Cinder - The block storage project.
 Although this guide is written based on DevStack, it will work with actual deployment of OpenStack
