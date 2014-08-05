@@ -13,6 +13,7 @@ By default, `devstack` will clone from the 'actual' OpenStack git repositories, 
     GIT_BASE=http://github.com
 
 Export http and https proxy variables
+
     export http_proxy=<your-http-proxy>
     export https_proxy=<your-https-proxy>
 
