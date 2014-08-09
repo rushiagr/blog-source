@@ -7,6 +7,10 @@ SITEURL = 'http://rushiagr.github.io'
 ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
+FEED_DOMAIN = SITEURL
+FEED_RSS = 'feeds/all.rss.xml'
+CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
+
 GITHUB_USER = 'rushiagr'
 GITHUB_REPO_COUNT = 5
 GITHUB_SKIP_FORK = True
