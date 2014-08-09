@@ -7,7 +7,7 @@ Category: tech
 
 OpenStack has support for EC2 API, that is, you can fire Amazon's API against an OpenStack cloud and it will still work. This article gets you started with using them locally against DevStack. It is more of a starter guide to a novice.
 
-Fire a DevStack with it's default settings. See [this post](www.rushiagr.com/blog/2014/04/03/openstack-in-an-hour-with-devstack) for more information on it.
+Fire a DevStack with it's default settings. See [this post](http://www.rushiagr.com/blog/2014/04/03/openstack-in-an-hour-with-devstack) for more information on it.
 
 	git clone http://github.com/openstack-dev/devstack
 	cd devstack/
