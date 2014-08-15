@@ -2,7 +2,7 @@ Title: MySQL Cheat Sheet
 Date: 2014-03-31
 Author: Rushi Agrawal
 Summary: 
-Tags: tech, cinder, openstack, cloud, cheatsheet, tutorial, ubuntu, mysql, quickstart
+Tags: tech, cheatsheet, tutorial, ubuntu, mysql, quickstart
 Category: tech
 
 Databases are so important, yet almost all the time I need to work with it, I find that I have already forgotten all the syntax! So here I am writing down a quick cheat sheet to get me up and running when I'm waking up from slumber. I hope this will help atleast one other guy on this planet.
