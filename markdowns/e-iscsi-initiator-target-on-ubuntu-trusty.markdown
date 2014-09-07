@@ -9,11 +9,12 @@ This post get's you started with iSCSI administration on an Ubuntu machine.
 Although I have used Ubuntu Trusty (14.04) version, it should work with Precise
 (12.04) too, with the latest packages.
 
-*Prerequisites*: Make sure you have atleast a little idea of what these terms
+#### Prerequisites 
+Make sure you have atleast a little idea of what these terms
 mean: iSCSI, LUN, IQN, initiator, target and portal. Google and wikipedia are
 your friends.
 
-A quick summary:
+#### A quick summary:
 There are two parts of iSCSI communication - initiator and target. So let's take an example. There is a storage server in your
 company, where you have a 'drive' for your team. The storage server is the
 'target', and your laptop, where you'll mount the drive to access it's contents
@@ -37,6 +38,8 @@ First install the required dependencies
 
     apt-get install lvm2 tgt open-iscsi
 
+
+#### Initialize logical volume
 Create a file of 1GB, create a volume group over it, and then over it, create a
 400MB logical volume, and see if it got created or not
 
@@ -53,6 +56,7 @@ Create a file of 1GB, create a volume group over it, and then over it, create a
       LV   VG   Attr      LSize   Pool Origin Data%  Move Log Copy% Convert
       mylv myvg -wi-a---- 400.00m                                           
 
+#### Target administration
 Now let's create a target, with target ID 1, and give it an IQN (iSCSI
 Qualified Name) `iqn.2001-04.example.com:your.first.iscsi.target`:
 
@@ -145,6 +149,8 @@ We're done with the 'target' side now. You can check, using `netstat` that port
 3260, the default port, is now open. Note that all our commands so far started with
 `tgtadm`, i.e., the target administration utility.
 
+#### Initiator administration
+
 Now let's start from the 'initiator' end. We'll behave as if we're a client
 trying to connect to the server -- the target.
 
@@ -230,6 +236,10 @@ mount it at some location to start using it!
     lost+found
     root@ra:~/tempmount# 
 
-Aaand done!
+#### Destruction
+The simplest way to get rid of all the things you've created is to unmount the
+device, and restart the system.
+
+Aaand done! 
 
 Cheers!
