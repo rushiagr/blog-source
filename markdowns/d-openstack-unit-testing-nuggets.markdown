@@ -75,6 +75,9 @@ seen that this happens due to only one of the following two reasons:
 
 2. *Dependencies outdated*: Dependencies in your virtual environment is
 outdated. In such cases, you will need to recreate a virtual environment with
-latest packages.
+latest packages. Or better: just update the virtual environment with the latest
+packages using this command:
+
+    ./run_tests.sh -u
 
 That's it for now.
