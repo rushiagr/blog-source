@@ -10,7 +10,7 @@ download required Puppet modules from their git repositories.
 
 Again, everything is tried on Ubuntu (14.04).
 
-Install puppet
+Make sure `hostname -f` shows your FQDN. Then install puppet
 
     sudo apt-get install puppet
 

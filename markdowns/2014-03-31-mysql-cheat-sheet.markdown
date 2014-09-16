@@ -20,7 +20,9 @@ A prompt will ask for the root password.
 
 To change the root password:
 
-	UPDATE mysql.user SET password=PASSWORD('nova') WHERE user='root';
+	FLUSH PRIVILEGES;
+        UPDATE mysql.user SET password=PASSWORD('nova') WHERE user='root';
+
 NOTE: MySQL keywords are case insensitive. They're represented in capital here just so that they appear different than the rest. When you're just testing out some things logging into the DB console, people generally prefer writing in small caps. 
 
 Note that `PASSWORD` is a function, and unlike other MySQL keywords cannot be used in small caps.
