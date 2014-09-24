@@ -80,4 +80,9 @@ packages using this command:
 
     ./run_tests.sh -u
 
+UPDATE: I've seen that nowadays it doesn't throw a lot of gibberish, but just
+says 'testr failed', without any error log or stacktrace. This is the same
+situation -- can only happen when there is a syntax error, or if the
+dependencies are outdated.
+
 That's it for now.

@@ -41,6 +41,9 @@ Puppet.
 
     sudo puppet apply site.pp --modulepath modules/
 
+To see the action in more detail, also pass the `--debug` option to the above
+execution
+
 And you're all set.
 
 Now from your commandline, you can try to access mysql and it will work!
