@@ -92,7 +92,8 @@ in a while to catch my mistakes?
 
 I consider this practice as ugly way of treating customers, and very very unfair, and should be stopped if the banks
 have any moral sense left in them. Perhaps I'll some day use consumer forum (or
-even a Public Interest Litigation!) to stop this fooling of common people by
+will I need to file a PIL maybe?)
+to stop this fooling of common people by
 these banks. For today, I have an excuse that I don't have enough time.
 
 I am sure these are not the only banks which are below par in customer
