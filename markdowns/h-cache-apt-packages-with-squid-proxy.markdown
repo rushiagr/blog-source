@@ -1,4 +1,4 @@
-Title: Cache APT packages for VMs with Squid proxy
+Title: Cache APT packages with Squid proxy
 Date: 2015-06-05
 Author: Rushi Agrawal
 Summary: How to set up Squid proxy in a very small time and cache APT packages
