@@ -2,6 +2,8 @@ AUTHOR = 'Rushi Agrawal'
 SITENAME = 'Sense, and Simplicity'
 TIMEZONE = 'Asia/Kolkata'
 
+# Comment the following line to generate locally-viewable blog. Run
+# 'python3 -m http.server' to view the blog at localhost:8000
 SITEURL = 'http://rushiagr.github.io'
 
 ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
