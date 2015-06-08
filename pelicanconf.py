@@ -24,12 +24,12 @@ DISQUS_SITENAME = 'rushiagr'
 
 SEARCHBOX = True
 
-TWITTER_USER = 'reeshi_india'
+TWITTER_USER = 'rushiagr'
 TWITTER_TWEET_BUTTON = True
 GOOGLE_PLUS_ONE = True
 FACEBOOK_LIKE = True
 
-SOCIAL = (('twitter', 'http://twitter.com/reeshi_india'),
+SOCIAL = (('twitter', 'http://twitter.com/rushiagr'),
           ('github', 'http://github.com/rushiagr'),
          )
 
