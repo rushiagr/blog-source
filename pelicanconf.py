@@ -2,6 +2,15 @@ AUTHOR = 'Rushi Agrawal'
 SITENAME = 'Sense, and Simplicity'
 TIMEZONE = 'Asia/Kolkata'
 
+
+# Alchemy theme options
+PAGES_ON_MENU=True
+SITE_SUBTEXT="On interactions between softwares and humans. Rushi Agrawal's blog."
+GITHUB_ADDRESS = 'https://github.com/rushiagr'
+TWITTER_ADDRESS = 'https://twitter.com/rushiagr'
+DEFAULT_PAGINATION = 10
+
+
 # Comment the following line to generate locally-viewable blog. Run
 # 'python3 -m http.server' to view the blog at localhost:8000
 SITEURL = 'http://rushiagr.github.io'
@@ -19,6 +28,7 @@ GITHUB_SKIP_FORK = True
 GITHUB_SHOW_USER_LINK = True
 
 GOOGLE_ANALYTICS = 'UA-37074962-1'
+GOOGLE_ANALYTICS_ID = 'UA-37074962-1'
 
 DISQUS_SITENAME = 'rushiagr'
 
