@@ -1,4 +1,4 @@
-Title: mod_wsgi parallelization notes
+Title: Apache mod_wsgi parallelization notes
 Date: 2015-07-24
 Author: Rushi Agrawal
 Summary: Short notes about parallelizing WSGI apps under Apache
@@ -8,7 +8,7 @@ Category: tech
 
 This is my notes on
 ['Processes and Threading'](https://code.google.com/p/modwsgi/wiki/ProcessesAndThreading)
-doc by the author of mod_wsgi. This blog post just serves as a 'quick refresher', and
+doc by the author of mod_wsgi module of Apache. This blog post just serves as a 'quick refresher', and
 is only useful if you have read the original document but it's been too long since you
 read it :)
 
