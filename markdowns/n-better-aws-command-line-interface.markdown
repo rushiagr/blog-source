@@ -1,7 +1,7 @@
 Title: Better AWS Command Line Interface
 Date: 2016-01-02
 Author: Rushi Agrawal
-Summary: AWS CLI are too difficult to use for a human. This blog post describes an alternate way the CLIs could be implemented. Check these out and you won't be disappointed :)
+Summary: AWS CLI are too difficult to use for a human. This blog post describes an alternate way the CLIs could be implemented.
 Tags: commandline, cli, terminal, ux, aws, python, boto
 Category: tech
 
