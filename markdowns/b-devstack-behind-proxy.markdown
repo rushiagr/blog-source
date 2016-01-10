@@ -23,4 +23,12 @@ Now, you will need to export `no_proxy` environment variable. This environment v
 
 After you have exported these three variables, you're free to run `./stack.sh`, and it should finish successfully.
 
+If you are doing a single-node devstack setup, you don't need to do anything
+else and can stop here. If you are doing a multi-node setup, the services
+running on one node might not communicate properly with services on a different node. In order to
+fix this, do this: go to individual services running inside screens, stop the
+service (by pressing `CTRL`+`C`), unset the proxy environment variables (`unset
+http_proxy https_proxy no_proxy`), and restart the service again (by pressing
+up arrow and then pressing `Enter`).
+
 Cheers!
